@@ -113,7 +113,7 @@ def generate_particles(x, y, color, shape):
             particles.append(Particle(x_pos + i * (FONT.size(letter)[1] + letter_spacing), y_pos, color, 0, 0, text=letter))
 
     elif shape == "text2":
-        # 當煙火為文字形狀時，顯示"I LOVE STLIN"
+        # 當煙火為文字形狀時，顯示"HAPPY NEW YEAR"
         text = "HAPPY NEW YEAR"
         text_width = FONT.size(text)[0]
         total_text_width = FONT.size(text)[0]
@@ -124,6 +124,20 @@ def generate_particles(x, y, color, shape):
         for i, letter in enumerate(text):
             # 讓每個字母按照間距排列
             particles.append(Particle(x_pos + i * (FONT.size(letter)[1] + letter_spacing), y_pos, color, 0, 0, text=letter))
+            
+    elif shape == "text3":
+        # 當煙火為文字形狀時，顯示"MERRY CHRISMAS"
+        text = "MERRY CHRISMAS"
+        text_width = FONT.size(text)[0]
+        total_text_width = FONT.size(text)[0]
+        x_pos = x - total_text_width -100/ 2  # 讓文字顯示在爆炸中心
+        y_pos = y
+        letter_spacing = 5  # 控制字母之間的間距
+
+        for i, letter in enumerate(text):
+            # 讓每個字母按照間距排列
+            particles.append(Particle(x_pos + i * (FONT.size(letter)[1] + letter_spacing), y_pos, color, 0, 0, text=letter))
+
 
 
     # 添加隨機粒子效果
@@ -162,6 +176,12 @@ def main():
                 rocket = Rocket(x, y, random.choice(COLORS), speed=random.randint(5, 8))  # 一定的速度
                 rockets.append((rocket, shape))
             elif shape == "text2":
+                # 當選擇文字形狀時，從畫面底部中間發射
+                x = WIDTH / 2
+                y = HEIGHT - 50  # 火箭從底部中間發射
+                rocket = Rocket(x, y, random.choice(COLORS), speed=random.randint(5, 8))  # 一定的速度
+                rockets.append((rocket, shape))
+            elif shape == "text3":
                 # 當選擇文字形狀時，從畫面底部中間發射
                 x = WIDTH / 2
                 y = HEIGHT - 50  # 火箭從底部中間發射
