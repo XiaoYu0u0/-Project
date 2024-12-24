@@ -22,11 +22,11 @@
   - pip install pygame
   
 2. **執行程式**：
-   -點選執行程式即可
+  - 點選執行程式即可
 
 3. **觀看動畫**：
-   - 觀賞火箭發射並爆炸成各種形狀與顏色。
-   - 無需任何互動，煙火展示會自動循環。
+  - 觀賞火箭發射並爆炸成各種形狀與顏色。
+  - 無需任何互動，煙火展示會自動循環。
 
 ## 程式架構
 
@@ -53,18 +53,18 @@
 1.**詢問ChatGPT**
   -透過不斷詢問ChatGPT再做些改寫，最終完成全部的程式。
   -對話內容:
-   -https://chatgpt.com/share/676a6206-6974-8000-987d-40907c58a0da
-   -https://chatgpt.com/share/676a6233-d610-8000-a8ff-4ae8dcd597c3
-   -https://chatgpt.com/share/676a624c-8588-8000-8aeb-384bf1422280
-   -https://chatgpt.com/share/676a62cc-7610-8000-a0d9-f8ef8b140b7e
+   - https://chatgpt.com/share/676a6206-6974-8000-987d-40907c58a0da
+   - https://chatgpt.com/share/676a6233-d610-8000-a8ff-4ae8dcd597c3
+   - https://chatgpt.com/share/676a624c-8588-8000-8aeb-384bf1422280
+   - https://chatgpt.com/share/676a62cc-7610-8000-a0d9-f8ef8b140b7e
 
 ## 參考資料
 1. **ChatGPT**
-   -對話內容同開發過程之對話內容
+   - 對話內容同開發過程之對話內容
 
 ## 程式修改或增強的內容
 1.**程式修改**
-  -修改了ChatGPT原先設定的文字間距，使其可以在畫面中央且每個字不會重疊。
+  - 修改了ChatGPT原先設定的文字間距，使其可以在畫面中央且每個字不會重疊。
 2.**自己的貢獻**
-  -利用ChatGPT設計文字形狀的邏輯，自己新增了「HAPPY NEW YEAR」、「MERRY CHRISMAS」的文字。
+  - 利用ChatGPT設計文字形狀的邏輯，自己新增了「HAPPY NEW YEAR」、「MERRY CHRISMAS」的文字。
 
