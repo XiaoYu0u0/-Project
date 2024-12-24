@@ -168,7 +168,7 @@ def main():
 
         if explosion_done:
             rockets = []
-            shape = random.choice(["text2"])
+            shape = random.choice(["circle","heart","star","scatter","text1","text2","text3"])
             if shape == "text1":
                 # 當選擇文字形狀時，從畫面底部中間發射
                 x = WIDTH / 2
