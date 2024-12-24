@@ -18,8 +18,8 @@
 
 ## 使用方式
 1.**預先準備**
-  -先下載pygame
-  -pip install pygame
+  - 先下載pygame
+  - pip install pygame
   
 2. **執行程式**：
    -點選執行程式即可
